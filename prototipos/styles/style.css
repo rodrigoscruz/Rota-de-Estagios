@@ -1,0 +1,12 @@
+:root,
+[data-bg-theme=dark] {
+    --bg-wine: #530000;
+}
+
+body {
+ background-image: url("../img/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}

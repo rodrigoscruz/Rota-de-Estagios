@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Cadastro de Vaga</title>
+  </head>
+
+<body style="background-color: #e7e7e7;">
+
+<!--Menu-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary text-white" style="background-color:#3A3A3A;">
+    <div class="container-fluid">
+      <!--Esqueda-->
+      <a class="navbar-brand" href="index.html">
+        <img src="./img/rest_logo.png" alt="Bootstrap" width="70" height="48">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contratante.html" style="color: white;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastrarVaga.html" style="color: white;">Cadastrar vaga</a>
+          </li>
+        </ul>
+
+        <!--Direita-->
+        <form class="d-flex" role="search">
+          <a class="navbar-brand" href="#">
+            <i class="material-icons m-2" style="font-size:28px;color:white;">forum</i>
+          </a>
+          <a class="navbar-brand" href="#">
+            <i class="material-icons m-2" style="font-size:28px;color:white;">notifications</i>
+          </a>
+          <a class="navbar-brand" href="#">
+            <i class="material-icons m-2" style="font-size:28px;color:white;">person</i>
+          </a>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!--Fim Menu-->
+
+<!--Conteúdo-->
+
+<!--Card-->
+<div class="card border-2 border-secondary mt-5" style="max-width: 32rem; margin-left: auto; margin-right: auto;">
+  <div class="card-header fw-bold">Anuncie uma vaga</div>
+  <div class="card-body text-secondary">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-md-3" style="margin-left: auto;">
+        <button type="submit" class="btn btn-dark fw-bold">Anunciar</button>
+      </div>
+    </form>
+  </div>
+<!--Fim Card-->
+
+<!--Fim Conteúdo-->
+
+
+  <script src="js/script.js"></script>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
